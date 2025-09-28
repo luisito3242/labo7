@@ -17,7 +17,7 @@ Cada tarea contiene `id`, `title` y `completed`. Persistencia en archivo JSON.
 - tecno
 t
 - Laravel 10+  -{{}}
-- Composer  
+- html  
 - Visual Studio Code  
 - Git / GitHub  
 

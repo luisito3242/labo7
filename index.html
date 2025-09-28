@@ -1,72 +1,24 @@
 <!DOCTYPE html>
-<!-- 
-  Archivo: index.html
-  Propósito: Mostrar qué hace cada etiqueta solicitada (DOCTYPe, html, head, meta, title, body).
--->
-
-<!DOCTYPE html>
 <html lang="es">
 <head>
-  <!-- meta: metadatos del documento -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Explicación de etiquetas HTML básicas para el laboratorio 7">
-  <title>¿Para qué sirven estas etiquetas?</title>
-  <!-- Aquí se enlazaría una hoja de estilos si hicieras CSS: <link rel="stylesheet" href="styles.css"> -->
+  <title>Página Principal - Lab7</title>
 </head>
 <body>
   <header>
-    <h1>Explicación de etiquetas HTML</h1>
-    <p>Este documento responde: <strong>¿Para qué sirven DOCTYPE, html, head, meta, title y body?</strong></p>
+    <h1>Laboratorio 7 — HTML y CSS</h1>
+    <nav>
+      <a href="index.html">Inicio</a> |
+      <a href="formulario.html">Formulario</a> |
+      <a href="tabla.html">Tabla</a> |
+      <a href="login.html">Login</a> |
+      <a href="card.html">Card</a>
+    </nav>
   </header>
 
   <main>
-    <section>
-      <h2>&lt;!DOCTYPE html&gt;</h2>
-      <p><strong>Qué es:</strong> Una declaración (no es una etiqueta que cierre) que aparece la primera línea de un documento HTML.</p>
-      <p><strong>Para qué sirve:</strong> Indica al navegador que la página usa <strong>HTML5</strong>. Ayuda al navegador a renderizar correctamente el documento.</p>
-      <pre><code>&lt;!DOCTYPE html&gt;</code></pre>
-    </section>
-
-    <section>
-      <h2>&lt;html&gt;</h2>
-      <p><strong>Qué es:</strong> El elemento raíz que contiene todo el documento HTML.</p>
-      <p><strong>Para qué sirve:</strong> Encierra <code>&lt;head&gt;</code> y <code>&lt;body&gt;</code>. Se le suele poner el atributo <code>lang="es"</code> para indicar el idioma (útil para lectores de pantalla y buscadores).</p>
-      <pre><code>&lt;html lang="es"&gt; ... &lt;/html&gt;</code></pre>
-    </section>
-
-    <section>
-      <h2>&lt;head&gt;</h2>
-      <p><strong>Qué es:</strong> La sección del documento que contiene metadatos y recursos.</p>
-      <p><strong>Para qué sirve:</strong> Aquí se coloca información que <em>no</em> se ve directamente en la página: título, meta tags, enlaces a CSS, favicon, scripts que se cargan antes del contenido, etc.</p>
-      <pre><code>&lt;head&gt; (meta, title, links a css, scripts) &lt;/head&gt;</code></pre>
-    </section>
-
-    <section>
-      <h2>&lt;meta&gt;</h2>
-      <p><strong>Qué es:</strong> Una etiqueta para definir metadatos concretos (es vacía, se escribe sin cierre).</p>
-      <p><strong>Para qué sirve:</strong> Define el juego de caracteres (<code>charset</code>), cómo se adapta la página en móviles (<code>viewport</code>), descripción, autor, y muchas otras cosas que ayudan al navegador y a buscadores.</p>
-      <pre><code>&lt;meta charset="utf-8"&gt;
-&lt;meta name="viewport" content="width=device-width, initial-scale=1"&gt;</code></pre>
-    </section>
-
-    <section>
-      <h2>&lt;title&gt;</h2>
-      <p><strong>Qué es:</strong> El título del documento (solo uno por página).</p>
-      <p><strong>Para qué sirve:</strong> Aparece en la pestaña del navegador y en los resultados de búsqueda; ayuda a identificar la página.</p>
-      <pre><code>&lt;title&gt;Mi título de página&lt;/title&gt;</code></pre>
-    </section>
-
-    <section>
-      <h2>&lt;body&gt;</h2>
-      <p><strong>Qué es:</strong> La parte visible del documento HTML.</p>
-      <p><strong>Para qué sirve:</strong> Contiene todo lo que el usuario ve en pantalla: textos, imágenes, formularios, enlaces, tablas, etc.</p>
-      <pre><code>&lt;body&gt;Contenido visible de la página&lt;/body&gt;</code></pre>
-    </section>
+    <p>Bienvenido al laboratorio. Navega a las páginas del menú para ver ejemplos.</p>
   </main>
-
-  <footer>
-    <p>Archivo preparado para entregar en el laboratorio 7.</p>
-  </footer>
 </body>
 </html>
