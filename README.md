@@ -7,7 +7,7 @@
 # 📝 Universidad Adventista de Bolivia
 **Materia:** Taller de Programación 
 **Estudiante:** Luis Alberto Chura Zegarra 
-**Proyecto:** Laboratorio7
+**Proyecto:** Laboratorio7 tarea
 
 ## 📋 Descripción  
 Proyecto Laravel que implementa un CRUD de tareas con JSON y APIs REST.  
@@ -15,8 +15,7 @@ Cada tarea contiene `id`, `title` y `completed`. Persistencia en archivo JSON.
 
 ## 🚀 Tecnologías  
 - tecno
-t
-- Laravel 10+  -{{}}
+
 - html  
 - Visual Studio Code  
 - Git / GitHub  
