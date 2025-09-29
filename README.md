@@ -17,7 +17,7 @@ Cada tarea contiene `id`, `title` y `completed`. Persistencia en archivo JSON.
 - tecno
 
 - html  
-- Visual Studio Code  
+- Visual StudioCode
 - Git / GitHub  
 
 ## ⚙️ Instalación  
